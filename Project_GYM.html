@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GYM</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://www.teahub.io/photos/full/108-1086552_photo-wallpaper-man-muscles-tattoo-fitness-gym-men.jpg');
+            
+        }
+        .left{
+            position: absolute;
+            display: inline-block;
+            /* border: 2px solid red; */
+            left: 34px;
+            top: 20px;
+            
+        }
+        .left img{
+            width: 136px;
+            /* filter: invert(100%); */
+            border-radius: 30px;
+
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+             filter: grayscale(100%);
+        }
+        .left div{
+            text-align: center;
+            line-height: 19px;
+            font-size: 26px;
+
+        }
+
+        .mid{
+            display: block;
+            /* border: 2px solid green; */
+            width: 36%;
+            margin: 29px auto;
+           
+        
+
+        }
+        .right{
+            position:absolute;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            right: 34px;
+            top: 43px;
+
+        }
+        .btn{
+            margin: 0px 9px;
+            padding: 9px 14px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border: 2px solid grey;
+
+        }
+        .btn:hover{
+            background-color: rgb(235, 187, 32);
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 20px 5px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(233, 166, 22);
+        }
+        .container{
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 10px;
+
+             
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 75%;
+            margin: 20px auto;
+        }
+       
+
+
+    </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="left">
+                <img
+                    src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zml0bmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                <div>Nitin Fitness</div>
+            </div>
+
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join the best gym of Odisha now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your State">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Mobile Number">
+                </div>
+                
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
